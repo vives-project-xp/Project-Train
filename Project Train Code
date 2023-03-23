@@ -1,33 +1,69 @@
-#include <Arduino.h>
 #include <FastLED.h>
-
 #define NUM_LEDS 30
 #define DATA_PIN 25
-#define fotodiode 25
 #define Color CRGB(255,139,23);
 #define Brightness 25
-int aantalLeds = 4;
 
 CRGB leds[NUM_LEDS];
-void setup() { 
-    FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);  // GRB ordering is assumed
-    Serial.begin(115200);
+#define ADCPin 36
+int incomingByte = 0; // for incoming serial data
+byte bits = 1;
+const int typeLength = 7;
+int downFlank = 0;
+int upFlank = 0;
+//int aantalLeds = 4;
+
+void setup() {
+  Serial.begin(115200); // opens serial port, sets data rate to 9600 bps
+  FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);  // GRB ordering is assumed
+  FastLED.setBrightness(Brightness);
 }
+void flanks(int value){
+  if(value == 1){
+  }
+  else{
+  for(int i = 0; i <= typeLength; i++){
   
-void loop()
-{
-FastLED.setBrightness(Brightness);
-int diodeWaarde = digitalRead(fotodiode);
-Serial.print("Fotodiode waarde: ");
-Serial.println(diodeWaarde);
-if(diodeWaarde == 1){
-        for(int i = -aantalLeds;i < NUM_LEDS+1; i++)
+    if(((value&0x2)>>1) > (value&0x1)){
+      downFlank = i+1;
+      //Serial.println("Joepie");
+    }
+    if(((value&0x2)>>1) < (value&0x1)){
+      upFlank = i;
+    }
+    value = value>> 1;
+    
+  }
+  }
+}
+void ledStrip(){
+ for(int i = upFlank;i < downFlank+1; i++)
         { 
-        leds[i+aantalLeds] = Color;
+        leds[i] = Color;
         FastLED.show();
         leds[i] = CRGB::Black;
         delay(150);
         }
-    }
-          FastLED.clear();
+ 
+}
+void loop() {
+   incomingByte = analogRead(ADCPin);
+   //Serial.print("Incoming byte: ");
+   //Serial.println(incomingByte);
+   int x = map(incomingByte, 0, 4095, 0, 7);
+   //Serial.print("x waarde is: ");
+   //Serial.println(x);
+   bits = 1;
+   for(int i = 0; i < x; i++){
+    bits = bits * 2;
    }
+   flanks(bits);
+   ledStrip();
+
+      
+         
+  Serial.println(bits, BIN);
+  Serial.println(upFlank);
+  Serial.println(downFlank);
+  delay(100);
+}
