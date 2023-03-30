@@ -9,7 +9,8 @@ moeten rijden. Dit zal allemaal automatisch gebeuren.
 Ook zal er een ledstip die aan de muur gangt de trein moeten volgen.
 
 ### Ledstrip
-De led strip zal de trein moeten volgen. Dit zal gebeuren aan de hand van 
+De led strip zal de trein moeten volgen zodat de aandacht
+van de spelers naar de trein gaat. Dit zal gebeuren aan de hand van 
 sensors die onder de trein staan. Zo kunnen we perfect weten waar de trein zich
 bevint en kunnen we de ledstip programeren. 
 
