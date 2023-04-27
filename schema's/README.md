@@ -7,6 +7,7 @@ het spoor komen te liggen. Het infrarood licht van de LED zal worden weerkaatst 
 er over rijdt waardoor dit licht valt op de fototransistor. Deze zal in geleiding 
 treden waardoor de spanning volledig over de weerstand(22kΩ) komt te staan. 
 Nu krijg je een logisch '1' op de signaalpin. Dit signaal wordt aangesloten aan een schuifregister. 
+[Aansluit schema ESP32 devkit](#aansluit-schema-esp32-devkit)
 
 ## H-Brug
 ![H-Brug schakeling](img/H-Brug.PNG)
