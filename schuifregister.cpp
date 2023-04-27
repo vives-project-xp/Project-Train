@@ -1,15 +1,15 @@
 #include <Arduino.h>
 
-int ioSelect =2;
-int clockPulse=3;
-int dataOut=4;
+int ioSelect =32;
+int clockPulse=35;
+int dataOut=34;
 int value;
 
 void setup() {
   pinMode(ioSelect,OUTPUT);
   pinMode(clockPulse,OUTPUT);
   pinMode(dataOut,INPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop() {
@@ -22,7 +22,7 @@ void loop() {
   for (int i = 0; i < 8; i++)//overloopt alle 8 de bits verhoog dit voor meer bits
   {
     value=digitalRead(dataOut);//data digitaal binnen lezen 
-    Serial.print("waare");
+    Serial.print("waarde");
     Serial.println(value);//waarde bit per bit weergeven 
     if (value){
       int a = (1<<i);//verschuift de bit achtereenvolgens naar de juiste plaats
