@@ -1,4 +1,4 @@
-# Uitleg schakelingen
+# Uitleg schema's
 ## Sensor
 ![Schema sensor](img/Sensor.PNG)
 
