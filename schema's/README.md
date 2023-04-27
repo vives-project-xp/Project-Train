@@ -1,6 +1,7 @@
 # Uitleg schakelingen
 ## Sensor
 ![image](img/Sensor.PNG)
+
 Dit schema wordt gesoldeerd op een gaatjes print, deze zullen dan tussen
 het spoor komen te liggen. Het infrarood licht van de LED zal worden weerkaatst als de trein
 er over rijdt waardoor dit licht valt op de fototransistor. Deze zal in geleiding 
@@ -9,6 +10,7 @@ Nu krijg je een logisch '1' op de signaalpin. Dit signaal wordt aangesloten aan 
 
 ## H-Brug
 ![image](img/H-Brug.PNG)
+
 De H-Brug wordt gebruikt om de trein te doen rijden. Hiermee kan je de snelheid en de richting
 van de trein bepalen. Aan de pinnen 1 en 2 wordt een logisch '0' of een PWM signaal gelegd. De richting 
 van de motor hangt af van welke pin een PWM signaal bavat. De ander pin moet verplicht een logisch '0' zijn 
