@@ -23,11 +23,11 @@ lezen aan de hand van schuifregisters.
 
 
 #### Lichten in de trein
-Dit is even op hold gezet omdat er balangrijkere dingen waren maar de bedoeling was dat
-er  2 koperen staven op het spoor komen te liggen die verbonden zijn met een DC-DC convertor.
+Dit is even op hold gezet omdat er balangrijkere dingen waren maar, de bedoeling was dat
+er 2 koperen staven op het spoor kwamen te liggen die verbonden zijn met een DC-DC convertor.
 Hierop komen 2 veren die vasthangen aan de laatste wagon die ervoor zorgt dat de schakeling in de 
-wagon voeding heeft. De staven lopen niet helemaal door,  daarom zou er een condensator in de schakeling 
-zit die na het opladen en het verlaten van de koperen staven zorgt dat de schakeling nog spanning heeft voor derest van het traject.µ
+wagon voeding krijgt. De staven lopen niet helemaal door, daarom zou er een condensator in de schakeling 
+zitten die na het opladen en het verlaten van de koperen staven zorgt dat de schakeling nog spanning heeft voor derest van het traject.
 
 
 
