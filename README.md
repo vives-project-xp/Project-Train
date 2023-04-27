@@ -1,5 +1,5 @@
 # Project-Train 
-![image](img/fototrein.jpg)
+![Trein](img/fototrein.jpg)
 ## Doel project
 Ons project zal worden gebruikt in een escape room. 
 De bedoeling is dat er allerlei dingen gebeuren in de kamer om de sperlers
