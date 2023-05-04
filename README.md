@@ -12,6 +12,8 @@ Ook zal er een ledstip die aan de muur gangt de trein moeten volgen.
 Aan de hand van de H-Brug zullen we de trein aumtomatisch doen rijden. De snelheid
 en de richting waarin de trein rijdt kan worden bepaald. De trein wordt geleverd met 
 een draai knop om de snelheid en richting te bepalen de H-Brug zal deze dan vervangen.
+Doordat we onze componenten te laat binnen kregen en een snelle oplossing moesten zoeken hiervoor
+hebben we een andere component gebruikt. 
 
 ### Ledstrip
 De led strip zal de trein moeten volgen zodat de aandacht
