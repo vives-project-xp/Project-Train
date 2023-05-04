@@ -8,6 +8,11 @@ De trein zal in een tijd van 10sec naar de overkant van de kamer
 moeten rijden. Dit zal allemaal automatisch gebeuren. 
 Ook zal er een ledstip die aan de muur gangt de trein moeten volgen.
 
+### H-Brug
+Aan de hand van de H-Brug zullen we de trein aumtomatisch doen rijden. De snelheid
+en de richting waarin de trein rijdt kan worden bepaald. De trein wordt geleverd met 
+een draai knop om de snelheid en richting te bepalen de H-Brug zal deze dan vervangen.
+
 ### Ledstrip
 De led strip zal de trein moeten volgen zodat de aandacht
 van de spelers naar de trein gaat. Dit zal gebeuren aan de hand van 
