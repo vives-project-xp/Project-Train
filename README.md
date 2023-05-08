@@ -19,7 +19,8 @@ hebben we een andere component gebruikt.
 De led strip zal de trein moeten volgen zodat de aandacht
 van de spelers naar de trein gaat. Dit zal gebeuren aan de hand van 
 sensors die onder de trein staan. Zo kunnen we perfect weten waar de trein zich
-bevint en kunnen we de ledstip programeren. 
+bevint en kunnen we de ledstip programeren. We maken gebruik van een infrarood LED en een sensor. Wanneer er een object, de trein in ons geval, over deze LED en sensor rijdt zal de sensor een digitale '1' uitsturen.
+In totaal hebben we 8 LEDs en sensoren, hierdoor krijgen we 8 nulletjes en eentjes binnen. Wanneer er dus een reeks van eentjes binnenkomt weten we dat de trein zich daar bevindt.
 
 ### De sensor 
 De sensoren die zich onder de trein bevinden zullen uit een fototransistor en
