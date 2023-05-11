@@ -40,8 +40,10 @@ zitten die na het opladen en het verlaten van de koperen staven zorgt dat de sch
 
 ### Video en presentatie
 Voor ons project hebben we ook een video moeten maken. De link naar deze video kan je hier terugvinden:
+
 https://vivesonline-my.sharepoint.com/personal/r0946707_student_vives_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fr0946707%5Fstudent%5Fvives%5Fbe%2FDocuments%2FProject%20Trein%2FProject%20Trein%2Emp4&parent=%2Fpersonal%2Fr0946707%5Fstudent%5Fvives%5Fbe%2FDocuments%2FProject%20Trein
 
 Ook hebben we een presentatie moeten maken. De link naar die presentatie kan je ook hier terugvinden:
+
 https://vivesonline-my.sharepoint.com/:p:/r/personal/r0946707_student_vives_be/_layouts/15/Doc.aspx?sourcedoc=%7B4A128648-7F8D-40A9-8AE3-8421E35680C3%7D&file=Project%20Trein.pptx&action=edit&mobileredirect=true
 
